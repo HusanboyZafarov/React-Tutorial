@@ -1,0 +1,3 @@
+// 2011 - Facebook jamoasi tomonidan yaratilgan
+// React so'zi - Reaksiya qilish, bildirish
+// Asosiy maqsad componentlarni yaratib ularni web ilovalarga joylab, ularni optimizatsiya qilish
