@@ -1,17 +1,26 @@
 import React, { Component } from 'react'
 
 class NavbarWithClass extends Component {
-    state = { number: 0 }
+    state = {
+        number: 0,
+        isLoggedIn: false
+    }
+    
     componentDidMount() {
         console.log("Navbar Mounted");
     }
+
     componentDidUpdate() {
         console.log("Navbar Updated!");
     }
+
+
     handleIncrease = () => {
         const number = this.state.number++
-        this.setState({ number })
+        const isLoggedIn = !(this.state.isLoggedIn)
+        this.setState({ isLoggedIn })
     }
+
     render() {
         return (
             <div className='container'>
